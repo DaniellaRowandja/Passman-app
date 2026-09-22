@@ -50,12 +50,12 @@ import plotly.graph_objects as go
 import streamlit as st
 from sklearn.ensemble import HistGradientBoostingRegressor
 
-st.set_page_config(page_title="Charge Wi-Fi Paris — Prévision", layout="wide", page_icon="📶")
+st.set_page_config(page_title="Charge Wi-Fi Paris — Prévision", layout="wide")
 
 # ============================================================================
 # CONFIGURATION — à adapter
 # ============================================================================
-DEFAULT_CSV_URL = "https://raw.githubusercontent.com/<votre-utilisateur>/<votre-repo>/main/data-passman-paris.csv"
+DEFAULT_CSV_URL = "https://github.com/DaniellaRowandja/Passman-app/blob/main/data-passman-paris.csv"
 DEFAULT_GEO_URL = ""  # optionnel : CSV avec colonnes site,lat,lon pour la carte
 
 # Si l'auto-détection des colonnes se trompe, forcez les noms exacts ici, ex :
