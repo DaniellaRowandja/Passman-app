@@ -55,8 +55,8 @@ st.set_page_config(page_title="Charge Wi-Fi Paris — Prévision", layout="wide"
 # ============================================================================
 # CONFIGURATION — à adapter
 # ============================================================================
-DEFAULT_CSV_URL = "https://github.com/DaniellaRowandja/Passman-app/blob/main/data-passman-paris.csv"
-DEFAULT_GEO_URL = "https://github.com/DaniellaRowandja/Passman-app/blob/main/data-passman-paris-geo.csv"  # optionnel : CSV avec colonnes site,lat,lon pour la carte
+DEFAULT_CSV_URL = "https://raw.githubusercontent.com/DaniellaRowandja/Passman-app/main/data-passman-paris.csv"
+DEFAULT_GEO_URL = "https://raw.githubusercontent.com/DaniellaRowandja/Passman-app/main/data-passman-paris-geo.csv"  # optionnel : CSV avec colonnes site,lat,lon pour la carte
 
 # Si l'auto-détection des colonnes se trompe, forcez les noms exacts ici, ex :
 # COLUMN_OVERRIDES = {"date": "connectiondate", "site": "sitename", "count": None, "bytesin": "bytesin"}
