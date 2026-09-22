@@ -1,0 +1,7 @@
+# Dépendances de l'application Streamlit publiable (app.py)
+# -> à renommer "requirements.txt" dans le repo GitHub qui contient app.py
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
